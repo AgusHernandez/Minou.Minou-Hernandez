@@ -31,6 +31,16 @@ body {
   font-weight: 400;
   font-size: 1.8rem; }
 
+.hght {
+  height: 50rem; }
+  @media screen and (min-width: 320px) {
+    .hght {
+      height: 20rem; } }
+
+.badge {
+  font-size: 1rem;
+  border-radius: 1rem; }
+
 /* INFO UTIL INDEX*/
 .anchoInfo {
   margin-top: 10rem; }
@@ -72,55 +82,6 @@ body {
     color: white; }
   .contacto .btn-lg {
     font-size: 1.5rem; }
-
-/* CARRITO */
-@media screen and (min-width: 768px) {
-  .carrito {
-    height: 50rem;
-    padding-left: 0;
-    padding-right: 0; } }
-
-@media screen and (min-width: 1024px) {
-  .carrito {
-    height: 60rem;
-    padding-left: 0;
-    padding-right: 0; } }
-
-.carrito .border-img {
-  border-radius: 19px; }
-
-.carrito .position {
-  display: flex;
-  align-content: center;
-  justify-content: center; }
-
-.carrito .casillero {
-  border-radius: 14px;
-  height: 40px;
-  width: 110px; }
-
-@media screen and (min-width: 768px) {
-  .carrito .botonesCarrito {
-    display: flex;
-    flex-direction: row; } }
-
-.carrito .botonCarrito {
-  background-color: #CDA292;
-  border-radius: 44px;
-  color: white;
-  font-size: 1.5rem;
-  transition: all 1s; }
-  @media screen and (min-width: 768px) {
-    .carrito .botonCarrito {
-      width: 30rem; } }
-  .carrito .botonCarrito:hover {
-    transform: scale(1.1);
-    background-color: #BF846F; }
-
-.carrito .linkBoton {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem; }
 
 /* 404 */
 .boton404 {
@@ -223,11 +184,72 @@ body {
   .cardsProductos .cardFondo {
     background-color: #D9C0BA; }
 
+@media screen and (min-width: 768px) {
+  .carrito {
+    height: 50rem;
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media screen and (min-width: 1024px) {
+  .carrito {
+    height: 60rem;
+    padding-left: 0;
+    padding-right: 0; } }
+
+.carrito .img {
+  height: 40rem; }
+
+.carrito .border-img {
+  border-radius: 19px; }
+
+.carrito .position {
+  display: flex;
+  align-content: center;
+  justify-content: center; }
+
+.carrito .casillero {
+  border-radius: 14px;
+  height: 40px;
+  width: 110px; }
+
+@media screen and (min-width: 768px) {
+  .carrito .botonesCarrito {
+    display: flex;
+    flex-direction: row; } }
+
+.carrito .botonCarrito {
+  background-color: #CDA292;
+  border-radius: 44px;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 1s; }
+  @media screen and (min-width: 768px) {
+    .carrito .botonCarrito {
+      width: 30rem; } }
+  .carrito .botonCarrito:hover {
+    transform: scale(1.1);
+    background-color: #BF846F; }
+
+.carrito .linkBoton {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem; }
+
 .piePag {
   background-image: linear-gradient(to right, #BF846F, #8C5346); }
   .piePag .row {
     padding-left: 0;
     padding-right: 0; }
+  .piePag .navbar .navbar-nav .nav-item {
+    padding-right: 0; }
+    .piePag .navbar .navbar-nav .nav-item:hover {
+      transform: scale(1.1); }
+    .piePag .navbar .navbar-nav .nav-item a:hover {
+      text-decoration: overline solid #EAE6DA;
+      transform: scale(1, 1); }
+  .piePag .navbar a {
+    font-weight: 400;
+    font-size: 1.8rem; }
   .piePag .contRedes {
     gap: 2rem;
     background-color: transparent;

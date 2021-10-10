@@ -2,7 +2,7 @@
 
 /* MENU */
 .container-lg {
-    @include movil {
+    @include mobile {
         padding-left: 0;
         padding-right: 0;
     }
@@ -32,4 +32,16 @@
         font-weight: 400;
         font-size: 1.8rem;
     }
+}
+
+.hght {
+    height: 50rem;
+    @include mobile {
+        height: 20rem;
+    }
+}
+
+.badge {
+    font-size: 1rem;
+    border-radius: 1rem;
 }
