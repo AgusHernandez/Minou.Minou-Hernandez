@@ -7,12 +7,16 @@
         padding-right: 0;
     }
     @include desktop {
-        height: 60rem;
+        height: 55rem;
         padding-left: 0;
         padding-right: 0;
     }
     .img {
         height: 40rem;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.2);
+        }
     }
     .border-img {
         border-radius: 19px;
@@ -30,8 +34,17 @@
 }
 
 .gx {
-    gap: 2.5rem;
+    gap: 3rem;
 }
+
+.gx-5 {
+    gap: 5rem;
+}
+
+.wdth {
+    width: 10rem;
+}
+
 .btnProducto {
     background-color: #CDA292;
     border-radius: 30px;
@@ -41,5 +54,20 @@
     .linkProducto {
         text-decoration: none;
         color: white;
+    }
+}
+
+.cardsProductos {
+    gap: 8rem;
+    .cardProducto {
+        padding: 0rem;
+        transition: all 1s;
+        &:hover {
+            box-shadow: 10px 10px 8px 2px rgba(184,175,184,1);
+            transform: scale(1,1);
+        }
+    }
+    .cardFondo {
+        background-color: #D9C0BA;
     }
 }

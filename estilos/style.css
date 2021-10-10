@@ -170,12 +170,15 @@ body {
 
 @media screen and (min-width: 1024px) {
   .prod {
-    height: 60rem;
+    height: 55rem;
     padding-left: 0;
     padding-right: 0; } }
 
 .prod .img {
-  height: 40rem; }
+  height: 40rem;
+  transition: all 1s; }
+  .prod .img:hover {
+    transform: scale(1.2); }
 
 .prod .border-img {
   border-radius: 19px; }
@@ -191,7 +194,13 @@ body {
   width: 110px; }
 
 .gx {
-  gap: 2.5rem; }
+  gap: 3rem; }
+
+.gx-5 {
+  gap: 5rem; }
+
+.wdth {
+  width: 10rem; }
 
 .btnProducto {
   background-color: #CDA292;
@@ -202,6 +211,17 @@ body {
   .btnProducto .linkProducto {
     text-decoration: none;
     color: white; }
+
+.cardsProductos {
+  gap: 8rem; }
+  .cardsProductos .cardProducto {
+    padding: 0rem;
+    transition: all 1s; }
+    .cardsProductos .cardProducto:hover {
+      box-shadow: 10px 10px 8px 2px #b8afb8;
+      transform: scale(1, 1); }
+  .cardsProductos .cardFondo {
+    background-color: #D9C0BA; }
 
 .piePag {
   background-image: linear-gradient(to right, #BF846F, #8C5346); }
