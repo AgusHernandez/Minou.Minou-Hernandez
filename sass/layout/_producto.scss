@@ -1,0 +1,45 @@
+/* PRODUCTO 1 */
+
+.prod {
+    @include tablet {
+        height: 50rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    @include desktop {
+        height: 60rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .img {
+        height: 40rem;
+    }
+    .border-img {
+        border-radius: 19px;
+    }
+    .position {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .casillero {
+        border-radius: 14px;
+        height: 40px;
+        width: 110px;
+    }
+}
+
+.gx {
+    gap: 2.5rem;
+}
+.btnProducto {
+    background-color: #CDA292;
+    border-radius: 30px;
+    font-size: 1.8rem;
+    color: white;
+    width: 11rem;
+    .linkProducto {
+        text-decoration: none;
+        color: white;
+    }
+}
