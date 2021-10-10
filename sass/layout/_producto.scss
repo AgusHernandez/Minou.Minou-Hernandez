@@ -17,6 +17,12 @@
         &:hover {
             transform: scale(1.2);
         }
+        @include mobile {
+            height: 25rem;
+        }
+        @include tablet {
+            height: 40rem;
+        }
     }
     .border-img {
         border-radius: 19px;

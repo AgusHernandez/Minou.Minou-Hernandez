@@ -35,9 +35,14 @@
 }
 
 .hght {
-    height: 50rem;
     @include mobile {
         height: 20rem;
+    }
+    @include tablet {
+        height: 35rem;
+    }
+    @include desktop {
+        height: 50rem;
     }
 }
 
