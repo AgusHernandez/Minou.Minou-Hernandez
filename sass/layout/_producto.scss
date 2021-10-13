@@ -11,21 +11,19 @@
         padding-left: 0;
         padding-right: 0;
     }
-    .img {
-        height: 40rem;
-        transition: all 1s;
-        &:hover {
-            transform: scale(1.2);
-        }
-        @include mobile {
-            height: 25rem;
-        }
-        @include tablet {
-            height: 40rem;
+    .col-lg-4 {
+        @include desktop {
+            width: 45rem;
         }
     }
     .border-img {
         border-radius: 19px;
+    }
+    .textSlide {
+        font-weight: 500;
+        .textSlide--pf {
+            font-weight: 600;
+        }
     }
     .position {
         display: flex;
