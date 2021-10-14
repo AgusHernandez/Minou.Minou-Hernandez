@@ -110,6 +110,14 @@ body {
     .cardsProductos .cardProducto:hover {
       box-shadow: 10px 10px 8px 2px #b8afb8;
       transform: scale(1, 1); }
+    .cardsProductos .cardProducto .card {
+      border: none; }
+      .cardsProductos .cardProducto .card .cardBorder {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px; }
+      .cardsProductos .cardProducto .card .cardImgBorder {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px; }
   .cardsProductos .cardFondo {
     background-color: #D9C0BA; }
 
