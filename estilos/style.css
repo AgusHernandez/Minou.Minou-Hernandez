@@ -193,62 +193,59 @@ body {
   .cardsProductos .cardFondo {
     background-color: #D9C0BA; }
 
-@media screen and (min-width: 768px) {
-  .carrito {
-    height: 50rem;
-    padding-left: 0;
-    padding-right: 0; } }
-
-@media screen and (min-width: 1024px) {
-  .carrito {
-    height: 60rem;
-    padding-left: 0;
-    padding-right: 0; } }
-
-.carrito .img {
-  height: 40rem; }
-  @media screen and (min-width: 320px) {
-    .carrito .img {
-      height: 25rem; } }
+.carrito {
+  /*.img {
+        height: 40rem;
+        @include mobile {
+            height: 25rem;
+        }
+        @include tablet {
+            height: 35rem;
+        } 
+    }*/ }
   @media screen and (min-width: 768px) {
-    .carrito .img {
-      height: 35rem; } }
-
-.carrito .border-img {
-  border-radius: 19px; }
-
-.carrito .position {
-  display: flex;
-  align-content: center;
-  justify-content: center; }
-
-.carrito .casillero {
-  border-radius: 14px;
-  height: 40px;
-  width: 110px; }
-
-@media screen and (min-width: 768px) {
-  .carrito .botonesCarrito {
+    .carrito {
+      height: 50rem;
+      padding-left: 0;
+      padding-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .carrito {
+      height: 60rem;
+      padding-left: 0;
+      padding-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .carrito .col-lg-4 {
+      width: 45rem; } }
+  .carrito .border-img {
+    border-radius: 19px; }
+  .carrito .position {
     display: flex;
-    flex-direction: row; } }
-
-.carrito .botonCarrito {
-  background-color: #CDA292;
-  border-radius: 44px;
-  color: white;
-  font-size: 1.5rem;
-  transition: all 1s; }
+    align-content: center;
+    justify-content: center; }
+  .carrito .casillero {
+    border-radius: 14px;
+    height: 40px;
+    width: 110px; }
   @media screen and (min-width: 768px) {
-    .carrito .botonCarrito {
-      width: 30rem; } }
-  .carrito .botonCarrito:hover {
-    transform: scale(1.1);
-    background-color: #BF846F; }
-
-.carrito .linkBoton {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem; }
+    .carrito .botonesCarrito {
+      display: flex;
+      flex-direction: row; } }
+  .carrito .botonCarrito {
+    background-color: #CDA292;
+    border-radius: 44px;
+    color: white;
+    font-size: 1.5rem;
+    transition: all 1s; }
+    @media screen and (min-width: 768px) {
+      .carrito .botonCarrito {
+        width: 30rem; } }
+    .carrito .botonCarrito:hover {
+      transform: scale(1.1);
+      background-color: #BF846F; }
+  .carrito .linkBoton {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem; }
 
 .piePag {
   background-image: linear-gradient(to right, #BF846F, #8C5346); }
