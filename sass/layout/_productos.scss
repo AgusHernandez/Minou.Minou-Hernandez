@@ -12,7 +12,8 @@
         padding: 0rem;
         transition: all 1s;
         &:hover {
-            box-shadow: 10px 10px 8px 2px rgba(184,175,184,1);
+            box-shadow: 10px 10px 8px 2px #F7C6C6;
+            border-bottom-right-radius: 19px;
             transform: scale(1,1);
         }
         .card {
@@ -34,14 +35,13 @@
 }
 
 .boton {
-    background-color: #CDA292;
+    background-color: #F97C7C;
     border-radius: 44px;
     transition: all 1s;
     color: white;
     &:hover {
         width: 35rem;
         transform: scale(1.1);
-        background-color: #BF846F;
     }
 }
 

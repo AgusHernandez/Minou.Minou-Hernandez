@@ -83,7 +83,7 @@ body {
   .contacto .form-check-label {
     font-size: 1.5rem; }
   .contacto .botonForm {
-    background-color: #CDA292;
+    background-color: #F97C7C;
     border-radius: 44px;
     color: white; }
   .contacto .btn-lg {
@@ -91,7 +91,7 @@ body {
 
 /* 404 */
 .boton404 {
-  background-color: #CDA292;
+  background-color: #F97C7C;
   border-radius: 44px;
   color: white;
   font-size: 2rem;
@@ -108,7 +108,8 @@ body {
     padding: 0rem;
     transition: all 1s; }
     .cardsProductos .cardProducto:hover {
-      box-shadow: 10px 10px 8px 2px #b8afb8;
+      box-shadow: 10px 10px 8px 2px #F7C6C6;
+      border-bottom-right-radius: 19px;
       transform: scale(1, 1); }
     .cardsProductos .cardProducto .card {
       border: none; }
@@ -122,14 +123,13 @@ body {
     background-color: #D9C0BA; }
 
 .boton {
-  background-color: #CDA292;
+  background-color: #F97C7C;
   border-radius: 44px;
   transition: all 1s;
   color: white; }
   .boton:hover {
     width: 35rem;
-    transform: scale(1.1);
-    background-color: #BF846F; }
+    transform: scale(1.1); }
 
 .textBoton {
   color: white;
@@ -187,7 +187,7 @@ body {
   width: 10rem; }
 
 .btnProducto {
-  background-color: #CDA292;
+  background-color: #F97C7C;
   border-radius: 30px;
   font-size: 1.8rem;
   color: white;
@@ -202,7 +202,8 @@ body {
     padding: 0rem;
     transition: all 1s; }
     .cardsProductos .cardProducto:hover {
-      box-shadow: 10px 10px 8px 2px #b8afb8;
+      box-shadow: 10px 10px 8px 2px #F7C6C6;
+      border-bottom-right-radius: 19px;
       transform: scale(1, 1); }
   .cardsProductos .cardFondo {
     background-color: #D9C0BA; }
@@ -242,7 +243,7 @@ body {
     flex-direction: row; } }
 
 .carrito .botonCarrito {
-  background-color: #CDA292;
+  background-color: #F97C7C;
   border-radius: 44px;
   color: white;
   font-size: 1.5rem;
@@ -251,8 +252,7 @@ body {
     .carrito .botonCarrito {
       width: 30rem; } }
   .carrito .botonCarrito:hover {
-    transform: scale(1.1);
-    background-color: #BF846F; }
+    transform: scale(1.1); }
 
 .carrito .linkBoton {
   text-decoration: none;
