@@ -62,10 +62,16 @@
 
 /* 404 */
 
+.hgt404 {
+    @include mobile {
+        height: 32rem;
+    }
+}
+
 .boton404 {
     background-color: #F97C7C;
     border-radius: 44px;
     color: white;
-    font-size: 2rem;
-    width: 22rem;
+    font-size: 1.5rem;
+    width: 18rem;
 }

@@ -90,12 +90,16 @@ body {
     font-size: 1.5rem; }
 
 /* 404 */
+@media screen and (min-width: 320px) {
+  .hgt404 {
+    height: 32rem; } }
+
 .boton404 {
   background-color: #F97C7C;
   border-radius: 44px;
   color: white;
-  font-size: 2rem;
-  width: 22rem; }
+  font-size: 1.5rem;
+  width: 18rem; }
 
 /* PRODUCTOS */
 .row {
@@ -207,6 +211,17 @@ body {
       transform: scale(1, 1); }
   .cardsProductos .cardFondo {
     background-color: #D9C0BA; }
+
+.breadcrumb-divider {
+  --bs-breadcrumb-divider: '>'; }
+
+.breadcrumb-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem; }
+
+.breadcrumb-size {
+  font-size: 1.5rem; }
 
 @media screen and (min-width: 768px) {
   .carrito {
