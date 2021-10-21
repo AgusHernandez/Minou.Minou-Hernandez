@@ -40,15 +40,22 @@
         <section class="container-lg">
             <h2 class="display-4 m-5 text-center">CARRITO DE COMPRAS</h2>
             <section class="row align-items-center justify-content-center mt-5 carrito">
+                <nav class="breadcrumb-divider" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a class="breadcrumb-link" href="productos1.html">Productos</a></li>
+                        <li class="breadcrumb-item breadcrumb-size" aria-current="page"><a class="breadcrumb-link" href="producto3.html">Cesto para Guardado</a></li>
+                        <li class="breadcrumb-item active breadcrumb-size" aria-current="page">Carrito de Compras</li>
+                    </ol>
+                </nav>
                 <article class="col-lg-4 col-md-6 col-sm-6">
                     <div class="text-center">
-                        <img class="img-fluid border-img w-100" src="../assets/maceta.jpg" alt="Maceta">
+                        <img class="img-fluid border-img w-100" src="../assets/cestoJuguetes.jpg" alt="Cesto para guardado">
                     </div>
                 </article>
                 <article class="col-lg-4 col-md-6 col-sm-3 mb-5">
                     <div>
-                        <h4 class="display-6 m-5 text-center">Maceta de Ceramica</h4>
-                        <p class="text-center m-5 fs-3 lh-base">$ 1.200</p>
+                        <h4 class="display-4 m-5 text-center">Cesto para Guardado</h4>
+                        <p class="text-center m-5 fs-2 lh-base">$ 1.200</p>
                     </div>
                     <div class="text-center">
                         <form action="#" method="#">
@@ -61,10 +68,10 @@
                                 </select>
                             </div>
                             <div class="row mb-3 position">
-                                <label class="form-label fs-4" for="color">Color:</label>
-                                <select class="form-select fs-4 text-center w-sm-100 position casillero" name="color" id="color">
-                                    <option value="negro">Blanco</option>
-                                    <option value="blanco">Negro</option>
+                                <label class="form-label fs-4" for="tamaño">Tamaño:</label>
+                                <select class="form-select fs-4 text-center w-sm-100 position casillero" name="tamaño" id="tamaño">
+                                    <option value="Chico">Chico</option>
+                                    <option value="Grande">Grande</option>
                                 </select>
                             </div>
                             <div class="row mb-3 position">
@@ -74,7 +81,7 @@
                         </form>
                     </div>
                 </article>
-                <article class="col-lg-6 col-md-6 col-sm-3 text-center">
+                <article class="col-lg-6 col-md-6 col-sm-3 text-center mt-5 mb-5">
                     <div class="text-center botonesCarrito">
                         <a class="btn botonCarrito btn-lg m-3 linkBoton" href="productos1.html">Seguir comprando</a>
                         <button type="button" class="btn botonCarrito btn-lg m-3">Comprar</button>
