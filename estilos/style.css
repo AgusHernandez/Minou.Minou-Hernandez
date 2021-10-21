@@ -216,7 +216,7 @@ body {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -224,7 +224,8 @@ body {
 
 .textProducto {
   color: black;
-  width: 30rem; }
+  width: 30rem;
+  font-weight: 700; }
 
 .hiddenProduct:hover .imgProducto {
   opacity: 0.3; }
