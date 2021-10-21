@@ -1,6 +1,6 @@
 @import "../utilities/variables";
 
-/* PRODUCTO 1 */
+/* PRODUCTO */
 
 .prod {
     @include tablet {
@@ -78,6 +78,43 @@
         background-color: #D9C0BA;
     }
 }
+
+.OverProducto {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.textProducto {
+    color: black;
+    width: 30rem;
+}
+
+.hiddenProduct {
+    &:hover {
+        .imgProducto {
+            opacity: 0.3;
+        }
+        .OverProducto {
+            opacity: 1;
+        }
+    }
+}
+
+.imgProducto {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
 
 .breadcrumb-divider {
     --bs-breadcrumb-divider: '>';

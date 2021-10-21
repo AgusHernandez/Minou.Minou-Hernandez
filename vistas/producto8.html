@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Productos para el hogar personalizables - Cesto para guardado">
-    <meta name="keywords" content="productos, hogar, venta, compra, interior, mascotas, niños, cestos, ropa">
+    <meta name="description" content="Productos para el hogar personalizables - Maceta de Ceramica">
+    <meta name="keywords" content="productos, hogar, venta, compra, interior, maceteros, maceta, ceramica">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--MIS ESTILOS-->
     <link rel="stylesheet" href="../estilos/style.css">
-    <title>Minou.minou | Cesto para guardado</title>
+    <title>Minou.minou | Maceta de Ceramica</title>
 </head>
 <body>
     <header class="container-lg">
@@ -41,25 +41,44 @@
                 <nav class="breadcrumb-divider" aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a class="breadcrumb-link" href="productos1.html">Productos</a></li>
-                        <li class="breadcrumb-item active breadcrumb-size" aria-current="page">Cesto para Guardado</li>
+                        <li class="breadcrumb-item active breadcrumb-size" aria-current="page">Maceta de Ceramica</li>
                     </ol>
                 </nav>
                 <article class="col-lg-4 col-md-6 col-sm-4">
-                    <div class="position-relative hiddenProduct">
-                        <div>
-                            <img src="../assets/cestoJuguetes.jpg" class="d-block w-100 border-img position-relative imgProducto" alt="Cesto para juguetes">
+                    <div id="carouselProducto" class="carousel slide text-center justify-self-center" data-bs-ride="carousel" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselProducto" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselProducto" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         </div>
-                        <div class="text-center OverProducto">
-                            <div class="textProducto">
-                                <h5 class="display-5">Cesto para Guardado</h5>
-                                <p class="fs-5">El diseño es personalizable. Viene en 2 tamaños distintos.</p>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assets/macetaProd.jpg" class="d-block w-100 border-img" alt="Buzo mascota azul">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="display-6 textSlide">Maceta de Ceramica</h5>
+                                    <p class="fs-5textSlide--pf">Diseño personalizable. Incluye plato.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/macetaProd2.jpg" class="d-block w-100 border-img" alt="Buzo mascota rojo">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="display-6 textSlide">Maceta de Ceramica</h5>
+                                    <p class="fs-5 textSlide--pf">Diseño personalizable. Incluye plato.</p>
+                                </div>
                             </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProducto" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselProducto" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Siguiente</span>
+                        </button>
                     </div>
                 </article>
                 <article class="col-lg-4 col-md-6 col-sm-3 mb-5">
                     <div>
-                        <h4 class="display-4 m-5 text-center">Cesto para Guardado</h4>
+                        <h4 class="display-4 m-5 text-center">Maceta de Ceramica</h4>
                         <p class="text-center m-5 fs-3 lh-base">Diseño personalizable</p>
                     </div>
                     <div class="text-center gy-5">
@@ -73,10 +92,10 @@
                                 </select>
                             </div>
                             <div class="row mb-3 position">
-                                <label class="form-label fs-4" for="tamaño">Tamaño:</label>
-                                <select class="form-select fs-4 text-center w-sm-100 position casillero" name="tamaño" id="tamaño">
-                                    <option value="Chico">Chico</option>
-                                    <option value="Grande">Grande</option>
+                                <label class="form-label fs-4" for="color">Color:</label>
+                                <select class="form-select fs-4 text-center w-sm-100 position casillero" name="color" id="color">
+                                    <option value="negro">Blanca</option>
+                                    <option value="blanco">Negra</option>
                                 </select>
                             </div>
                         </form>
@@ -112,22 +131,22 @@
                 <article class="col-lg-2 col-md-4 col-sm-4 col-8 cardProducto">
                     <div class="card text-center bg-transparent">
                         <div>
-                            <a href="producto4.html"><img class="card-img-top cardImgBorder" src="../assets/buzoMascota.jpg" alt="Buzo para mascotas"></a>
+                            <a href="404.html"><img class="card-img-top cardImgBorder" src="../assets/macetaAutoriego.jpg" alt="Maceta Autoriego"></a>
                         </div>
                         <div class="card-body cardBorder text-dark cardFondo lh-lg pt-5">
-                            <h4 class="card-title fs-3">Buzo para mascotas</h4>
-                            <p class="card-text fs-4">$ 1.000</p>
+                            <h4 class="card-title fs-3">Maceta Autoriego</h4>
+                            <p class="card-text fs-4">$ 700</p>
                         </div>
                     </div>
                 </article>
                 <article class="col-lg-2 col-md-4 col-sm-4 col-8 cardProducto">
                     <div class="card text-center bg-transparent">
                         <div>
-                            <a href="producto5.html"><img class="card-img-top cardImgBorder" src="../assets/camaMascotas.jpg" alt="Cama para mascotas"></a>
+                            <a href="404.html"><img class="card-img-top cardImgBorder" src="../assets/macetero.jpg" alt="macetero"></a>
                         </div>
                         <div class="card-body cardBorder text-dark cardFondo lh-lg pt-5">
-                            <h4 class="card-title fs-3">Cama para mascotas</h4>
-                            <p class="card-text fs-4">$ 1.900</p>
+                            <h4 class="card-title fs-3">Macetero Vertical</h4>
+                            <p class="card-text fs-4">$ 1.500</p>
                         </div>
                     </div>
                 </article>
